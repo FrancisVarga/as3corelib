@@ -78,7 +78,7 @@ package com.adobe.serialization.json
 		 * @playerversion Flash 9.0
 		 * @tiptext
 		 */
-		public static function decode( s:String, strict:Boolean = true ):*
+		public static function decode( s:String):*
 		{
 			return decodeJson(s);
 		}
